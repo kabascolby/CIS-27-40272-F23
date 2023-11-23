@@ -1,0 +1,35 @@
+from slowest to fastest:
+
+1. n!: This expression represents a linear function of n, where the constant of proportionality is 20. As n increases, 20n increases at a steady rate, but at a slower pace than exponential functions.
+
+2. 3^n: This expression grows at a significantly faster rate than the other polynomial expressions. As n increases, 3^n grows exponentially, albeit at a slower rate than n!.
+
+3. 20n: This expression grows linearly with respect to n. As n increases, 20n increases at a steady rate, but at a slower pace than exponential functions.
+
+4. 4n^2: This expression grows quadratically with respect to n. As n increases, 4n^2 increases at a faster rate than linear functions, but at a slower pace than exponential functions.
+
+5. n^2/3: This expression grows as a sublinear power of n. As n increases, n^2/3 increases at a slower rate than linear functions.
+
+6. log3 n: This expression grows logarithmically with respect to n. As n increases, log3 n increases at a very slow rate.
+
+7. log2 n: This expression grows logarithmically with respect to n, but at a slightly faster rate than log3 n due to the base of the logarithm.
+
+8. 2: This expression has a constant value of 2, regardless of the value of n. It grows the slowest among all the given expressions.
+
+In summary, the order of growth rate from slowest to fastest is:
+
+2 < log2 n < log3 n < n^2/3 < 20n < 4n^2 < 3^n < n!
+
+(a)	O(1)
+
+(b) O(n)
+(c) O(n^2)
+(d) O(n^2)
+(e) O(n log n)
+(f) O(n)
+(g) O(n^2 log n)
+
+
+(a) The code fragment consists of two assignment statements, which are constant-time operations. Therefore, the complexity is O(1).
+
+(b) The code fragment consists of a nested loop, where the outer loop runs 3 times and the inner loop runs n times. Therefore, the complexity is O(3n) = O(n).
